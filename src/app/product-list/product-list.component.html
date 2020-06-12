@@ -8,7 +8,10 @@
   </h3>
 
   <p *ngIf="product.description">
-    Description:{{ product.description}}
+    Descrição:{{ product.description}}
+  </p>
+  <p>
+    Preço: {{ product.price}}
   </p>
 
   <button (click)="share()">
